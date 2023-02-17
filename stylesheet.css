@@ -1,9 +1,38 @@
+:root {
+  --b1: #274c77;
+  --b2: #6096ba;
+  --b3: #a3cef1;
+  --g1: #e7ecef;
+}
+
 * {
   margin:0%;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: var(--b1);
+}
+
+header {
+  background: var(--b3);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+header a {
+  padding: 1% 2%;
+}
+
+/* flexbox classes */
 .row {
   display: flex;
   flex-direction: row;
