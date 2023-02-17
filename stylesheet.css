@@ -1,0 +1,18 @@
+* {
+  margin:0%;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 1;
+}
