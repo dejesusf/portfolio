@@ -20,6 +20,10 @@ a:hover {
   color: var(--b1);
 }
 
+main {
+  margin-bottom: 30px;
+}
+
 header {
   background: var(--b3);
   height: auto;
@@ -32,6 +36,21 @@ header a {
   padding: 1% 2%;
 }
 
+#profile-pic img {
+  width: 98%;
+}
+
+#about-me {
+  text-align: justify;
+}
+
+#about-me p {
+  margin-bottom: 10px;
+}
+
+#about-me a {
+  font-weight: bold;
+}
 
 footer {
   background: var(--b3);
@@ -61,7 +80,7 @@ footer {
 }
 
 .top {
-  background: var(--g1);
+  /* background: var(--g1); */
   margin: 20px;
   width: 80%;
   text-align: center;
@@ -69,8 +88,22 @@ footer {
 }
 
 .middle {
-  background: var(--g1);
-  margin: 10px;
-  padding: 1%;
+  /* background: var(--g1); */
+  margin: 0px, 10px, 10px, 10px;
+  padding: 10px;
   width: 80%;
+}
+
+.left {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+.right {
+ width: 49%;
+ display: inline-block;
+ vertical-align: top;
+ padding-left: 5px;
 }
